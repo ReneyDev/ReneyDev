@@ -50,8 +50,9 @@ public class ArithmeticAndWeightedMeanEnem {
             Double nota5 = Nota5.nextDouble();
 
             System.out.println("Sua média ponderada no Enem foi de: " + ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) + (nota4 * peso4) + (nota5 * peso5)) / (peso1 + peso2 + peso3 + peso4 + peso5));
-            System.out.println("VAI TOMAR NO CÚ, ENZO.");
+            
         } else {
+            
             Scanner Nota1 = new Scanner(System.in);
             System.out.println("Insira sua nota em Linguagens, Códigos e suas Tecnologias:");
             Double nota1 = Nota1.nextDouble();
@@ -73,7 +74,6 @@ public class ArithmeticAndWeightedMeanEnem {
             Double nota5 = Nota5.nextDouble();
 
             System.out.println("Sua média no Enem foi de: " + (nota1 + nota2 + nota3 + nota4 + nota5) / 5);
-            System.out.println("VAI TOMAR NO CÚ, ENZO.");
         }
     }
 }
